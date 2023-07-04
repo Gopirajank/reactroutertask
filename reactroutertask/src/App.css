@@ -1,0 +1,47 @@
+body {
+  background-color: white /* Replace with your desired color */
+}
+.app {
+  background-color:white; /* Replace with your desired color */
+}
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 600px) {
+  /* Styles for screens with a maximum width of 600px */
+  .navigation-menu ul {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    margin: 10px 0;
+  }
+}
+.hover-button {
+  /* Regular button styles */
+  padding: 10px 20px;
+  background-color: #ccc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.hover-button:hover {
+  /* Hover styles */
+  background-color: #555;
+}
